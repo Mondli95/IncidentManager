@@ -1,0 +1,94 @@
+.createIncident {
+  flex: 4;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.cancelBtn {
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.incidentContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.leftPanelFormContainer {
+  flex: 2;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.incidentInput > textarea {
+  height: 100px;
+  font-size: 16px;
+}
+
+.incidentInput > input {
+  font-size: 16px;
+}
+
+.rightPanelFormContainer {
+  flex: 2;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.incidentInput {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.incidentInfoTitle {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(162, 154, 154);
+}
+
+.incidentTitleInput {
+  border: none;
+  height: 25px;
+  border-bottom: 1px solid gray;
+}
+
+.incidentSelect {
+  height: 25px;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+}
+
+.createIncidentBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  width: 100px;
+  background-color: rgb(87, 174, 203);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}

@@ -1,0 +1,14 @@
+.assigneeIncidents {
+  flex: 4;
+  padding: 20px;
+}
+
+.resolveIncidentBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: black;
+  height: 30px;
+  width: 60px;
+  font-weight: 600;
+}

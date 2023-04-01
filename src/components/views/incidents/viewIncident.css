@@ -1,0 +1,103 @@
+.viewIncident {
+  flex: 4;
+}
+
+.incidentTitleContainer {
+  display: flex;
+  padding: 20px;
+}
+
+.incidentDetailsBackBtn {
+  margin-right: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.incidentDetailsContainer {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.incidentDetails {
+  display: flex;
+  padding: 10px;
+  justify-content: start;
+}
+
+.incidentDetailsLeftPanel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.incidentDetailsRightPanel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+  box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px -3px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.incidentDetails > label {
+  margin-right: 20px;
+  font-weight: bold;
+  color: rgb(98, 89, 89);
+}
+
+.viewIncidentSelect {
+  border: none;
+  border-bottom: 1px solid #7b7878;
+  font-size: 18px;
+}
+
+.viewIncidentDuration {
+  border: none;
+  border-bottom: 1px solid #797676;
+  font-size: 16px;
+  width: 120px;
+}
+
+.Low {
+  color: rgb(74, 80, 189);
+  font-weight: 600;
+}
+
+.Medium {
+  color: lightcoral;
+  font-weight: bold;
+}
+
+.High {
+  color: red;
+  font-weight: bold;
+}
+
+.submitBtn {
+  border: none;
+  padding: 7px 10px;
+  margin: 20px 10px 20px;
+  width: 130px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(91, 91, 187);
+  font-weight: bold;
+  cursor: pointer;
+  align-content: end;
+}
+
+.incidentDetails > textarea {
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.incidentDetails > input {
+  width: 100px;
+  height: 20px;
+}

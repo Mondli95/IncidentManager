@@ -1,0 +1,16 @@
+.stats-widget {
+    display: flex;
+    padding: 20px;
+}
+
+.statsWidgetItem {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.chartTitle {
+    padding: 0px 20px;
+}

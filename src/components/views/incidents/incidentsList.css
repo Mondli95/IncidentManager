@@ -1,0 +1,27 @@
+.incidentsList {
+  flex: 4;
+}
+
+.viewIncidentBtn {
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: rgb(66, 177, 66);
+  color: white;
+  cursor: pointer;
+}
+
+.gridTable {
+  margin-left: 10px;
+}
+
+.Pending {
+  color: red;
+}
+.Resolved {
+  color: green;
+}
+
+.Assigned {
+  color: orange;
+}

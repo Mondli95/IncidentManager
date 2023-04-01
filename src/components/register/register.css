@@ -1,0 +1,53 @@
+.register {
+  flex: 4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+.registerTitle {
+  margin-bottom: 60px;
+}
+
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerInput > input {
+  height: 30px;
+  width: 220px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 6px;
+}
+label {
+  font-size: 18px;
+  color: gray;
+}
+
+.registerBtn {
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}

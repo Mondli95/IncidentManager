@@ -1,0 +1,56 @@
+.login {
+  flex: 4;
+  background-color: rgb(201, 208, 212);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.loginForm > .loginInputItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginInputItem {
+  margin-bottom: 20px;
+}
+
+.loginLabel {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.loginInput {
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  height: 30px;
+}
+
+.loginBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(84, 148, 212);
+  font-size: 14px;
+  color: white;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.errorMessage {
+  font-size: 14px;
+  color: red;
+}
